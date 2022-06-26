@@ -2,9 +2,11 @@
 # SPDX-License-Identifier: MIT
 
 if BOARD_LINK-UP_LEFT
-
 	config ZMK_KEYBOARD_NAME
 	default "Link-Up Board"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+	default y
 
 endif # BOARD_LINK-UP_LEFT
 
