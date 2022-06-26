@@ -9,6 +9,9 @@ CONFIG_ZMK_SLEEP=y
 # Enable MPU
 CONFIG_ARM_MPU=y
 
+# Poll to avoid interrupt overlap issues
+CONFIG_ZMK_KSCAN_DIRECT_POLLING=y
+
 # enable GPIO
 CONFIG_GPIO=y
 
