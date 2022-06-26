@@ -1,5 +1,5 @@
-identifier: jiran_ble_lite
-name: Jiran BLE Lite
+identifier: link-up
+name: Link-Up Boards
 type: keyboard
 arch: arm
 toolchain:

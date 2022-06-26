@@ -13,5 +13,5 @@
 #
 ---
 include:
-  - board: jiran_ble_lite_left
-  - board: jiran_ble_lite_right
+  - board: link-up_left
+  - board: link-up_right

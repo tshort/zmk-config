@@ -1,0 +1,41 @@
+/*
+ * Copyright (c) 2021 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+
+/ {
+        keymap {
+                compatible = "zmk,keymap";
+
+                default_layer {
+// ----------------------------------------------------------------------------------
+// |  6  |  7  |  8  |  9  |  0  |
+// |  Y  |  U   |  I  |  O  |  P  |
+// |  H  |  J   |  K  |  L  |  ;  |
+// |  N  |  M   |  ,  |  .  |  /  |
+// | FN  | GUI | ALT | CTL | SPC |
+                        bindings = <
+&kp N6 &kp N7  &kp N8   &kp N9  &kp N0   
+&kp Y  &kp U   &kp I    &kp O   &kp P    
+&kp H  &kp J   &kp K    &kp L   &kp SCLN 
+&kp N  &kp M   &kp CMMA &kp DOT &kp FSLH 
+&mt RSFT SPC &mt RCTL BKSP &kp RALT &mt RGUI TAB &mo 1  
+                        >;
+                };
+                lower_layer {
+// -----------------------------------------------------------------------------------------
+                       bindings = <
+&kp F1 &kp F2   &kp F3   &kp F4    &kp F5
+&kp BT1 &kp BT2 &kp BT3 &kp BT4 &kp BTCLR
+&kp reset  &none &none &none &none 
+&kp reset  &none &none &none &none 
+&trans &trans &trans &trans &trans
+                       >;
+               };
+        };
+};

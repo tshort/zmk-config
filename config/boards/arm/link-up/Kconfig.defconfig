@@ -1,18 +1,18 @@
 # Copyright (c) 2021 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if BOARD_JIRAN_BLE_LITE_LEFT
+if BOARD_LINK-UP_LEFT
 
 	config ZMK_KEYBOARD_NAME
-	default "Jiran BLE Lite"
+	default "Link-Up Board"
 
-endif # BOARD_JIRAN_BLE_LITE_LEFT
+endif # BOARD_LINK-UP_LEFT
 
 
-if BOARD_JIRAN_BLE_LITE_LEFT || BOARD_JIRAN_BLE_LITE_RIGHT
+if BOARD_LINK-UP_LEFT || BOARD_LINK-UP_RIGHT
 
 config BOARD
-	default "jiran_ble_lite"
+	default "link-up"
 
 config ZMK_SPLIT
 	default y
@@ -39,4 +39,4 @@ config USB_DEVICE_STACK
 
 endif # USB
 
-endif # BOARD_JIRAN_BLE_LITE_LEFT || BOARD_JIRAN_BLE_LITE_RIGHT
+endif # BOARD_LINK-UP_LEFT || BOARD_LINK-UP_RIGHT
