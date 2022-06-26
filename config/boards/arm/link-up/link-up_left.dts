@@ -7,6 +7,8 @@
 #include "link-up.dtsi"
 
 &kscan0 {
+	compatible = "zmk,kscan-gpio-direct";
+	label = "KSCAN";
     input-gpios
         = <&gpio1 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
         , <&gpio1 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
