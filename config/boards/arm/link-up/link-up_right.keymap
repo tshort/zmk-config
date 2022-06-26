@@ -18,7 +18,7 @@
 // |  Y  |  U   |  I  |  O  |  P  |
 // |  H  |  J   |  K  |  L  |  ;  |
 // |  N  |  M   |  ,  |  .  |  /  |
-// | FN  | GUI | ALT | CTL | SPC |
+// | SPC  | CTL | ALT | GUI | FN  |
                         bindings = <
 &kp N6 &kp N7  &kp N8   &kp N9  &kp N0   
 &kp Y  &kp U   &kp I    &kp O   &kp P    
