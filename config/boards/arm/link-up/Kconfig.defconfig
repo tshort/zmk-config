@@ -3,7 +3,7 @@
 
 if BOARD_LINK-UP_LEFT
 	config ZMK_KEYBOARD_NAME
-	default "Link-Up Board"
+	default "Link-Up Ortho Board"
 
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
