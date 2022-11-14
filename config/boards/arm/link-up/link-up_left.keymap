@@ -31,10 +31,10 @@
 // -----------------------------------------------------------------------------------------
                        bindings = <
 &kp F1 &kp F2   &kp F3   &kp F4    &kp F5
-&kp BT1 &kp BT2 &kp BT3 &kp BT4 &kp BTCLR
-&kp reset  &none &none &none &none 
-&kp reset  &none &none &none &none 
-&trans &trans &trans &trans &trans
+&kp F1 &kp F2   &kp F3   &kp F4    &kp F5
+&kp F1 &kp F2   &kp F3   &kp F4    &kp F5
+&kp F1 &kp F2   &kp F3   &kp F4    &kp F5
+&kp F1 &kp F2   &kp F3   &kp F4    &kp F5
                        >;
                };
         };
