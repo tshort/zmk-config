@@ -16,8 +16,8 @@ if BOARD_LINK-UP_LEFT || BOARD_LINK-UP_RIGHT
 config BOARD
 	default "link-up"
 
-# config ZMK_SPLIT
-# 	default y
+config ZMK_SPLIT
+ 	default y
 
 menuconfig SENSOR
     bool "Sensor Drivers"
