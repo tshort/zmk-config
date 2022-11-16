@@ -14,17 +14,12 @@
 
                 default_layer {
 // ----------------------------------------------------------------------------------
-// |  6  |  7  |  8  |  9  |  0  |
-// |  Y  |  U   |  I  |  O  |  P  |
-// |  H  |  J   |  K  |  L  |  ;  |
-// |  N  |  M   |  ,  |  .  |  /  |
-// | SPC  | CTL | ALT | GUI | FN  |
                         bindings = <
-&kp N6 &kp N7  &kp N8   &kp N9  &kp N0   
-&kp Y  &kp U   &kp I    &kp O   &kp P    
-&kp H  &kp J   &kp K    &kp L   &kp SCLN 
-&kp N  &kp M   &kp CMMA &kp DOT &kp FSLH 
-&mt RSFT SPC &mt RCTL BKSP &kp RALT &mt RGUI TAB &mo 1  
+&kp N6    &kp N7    &kp N8   &kp N9   &kp N0   
+&kp Y     &kp U     &kp I    &kp O    &kp P    
+&kp H     &kp J     &kp K    &kp L    &kp SCLN 
+&kp N     &kp M     &kp CMMA &kp DOT  &kp FSLH 
+&kp SPACE &kp RSHFT &kp RCTL &kp RALT &kp RGUI   
                         >;
                 };
                 lower_layer {
