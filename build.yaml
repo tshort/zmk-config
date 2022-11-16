@@ -15,3 +15,4 @@
 include:
   - board: link-up_left
   - board: link-up_right
+  - board: link-up_mid
