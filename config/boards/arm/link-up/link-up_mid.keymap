@@ -26,7 +26,7 @@
 // | BKSP| <   |  v  |  >  | PGDN|
                         bindings = <
 &kp ESC  &kp TILDE &kp MINUS &kp EQUAL &kp ZM_OUT 
-&kp TAB  &kp RBKT  &kp LBKT  &kp BLSH  &kp ZM_IN
+&kp TAB  &kp LBKT  &kp RBKT  &kp BSLH  &kp ZM_IN
 &kp RET  &kp BACK  &kp FWD   &kp APPS  &kp SQT   
 &kp DEL  &kp HOME  &kp UP    &kp END   &kp PG_UP   
 &kp BSPC &kp LEFT  &kp DOWN  &kp RIGHT &kp PG_DN
