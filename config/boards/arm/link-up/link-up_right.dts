@@ -42,6 +42,6 @@
             ;
 };
 
-&transform {
+&default_transform {
     col-offset = <25>;
 };
