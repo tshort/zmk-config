@@ -9,11 +9,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#define BACK   C_AC_BACK
-#define FWD    C_AC_FORWARD
-#define ZM_IN  LC(EQUAL)
-#define ZM_OUT LC(MINUS)
-#define APPS   LG(TAB)
 
 / {
 	keymap {
